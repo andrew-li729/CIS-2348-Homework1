@@ -36,7 +36,7 @@ agave_gallons = agave_cups/16
 print("Lemonade ingredients - yields {:.2f} servings".format(desired_servings))
 print("{:.2f} gallon(s) lemon juice".format(lemon_gallons))
 print("{:.2f} gallon(s) water".format(water_gallons))
-print("{:.2f} gallons(s) agave nectar".format(agave_gallons))
+print("{:.2f} gallon(s) agave nectar".format(agave_gallons))
 
 
 
