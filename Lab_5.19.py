@@ -39,7 +39,7 @@ else:
     print("Service 1: {}, ${}".format(service1, services[service1]))
 
 if service2 == "-":
-    print("Service 2: No service")
+    print("Service 2: No service\n")
 else:
     print("Service 2: {}, ${}\n".format(service2, services[service2]))
 
