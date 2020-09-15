@@ -21,4 +21,14 @@ print("Car wax -- ${}\n".format(services["Car wax"]))
 # will store choices in own variables to index dictionary
 service1 = input("Select first service:\n")
 service2 = input("Select second service:\n")
+print("")
 
+# PART 3
+service1_cost = services[service1]
+service2_cost = services[service2]
+total = service1_cost + service2_cost
+
+print("Davy's auto shop invoice\n")
+print("Service 1: {}, ${}".format(service1,services[service1]))
+print("Service 2: {}, ${}\n".format(service2,services[service2]))
+print("Total: $", total)
