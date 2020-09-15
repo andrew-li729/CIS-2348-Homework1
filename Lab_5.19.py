@@ -31,17 +31,16 @@ total = service1_cost + service2_cost
 
 # PART 4
 # Extends program to allow user to select no service
-if service1 == "-":
-    service1_copy = "No service"
+print("Davy's auto shop invoice\n")
+
+if service1 == "-":  # do not need to access dict if no service is chosen
+    print("Service 1: No service")
 else:
-    service1_copy = service1  # makes a copy to change name from "-" to "no service" and still allow dict reading
+    print("Service 1: {}, ${}".format(service1, services[service1]))
 
 if service2 == "-":
-    service2_copy = "No service"
+    print("Service 2: No service")
 else:
-    service2_copy = service2
+    print("Service 2: {}, ${}\n".format(service2, services[service2]))
 
-print("Davy's auto shop invoice\n")
-print("Service 1: {}, ${}".format(service1_copy, services[service1]))
-print("Service 2: {}, ${}\n".format(service2_copy, services[service2]))
 print("Total: ${}".format(total))
