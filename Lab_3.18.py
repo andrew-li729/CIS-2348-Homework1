@@ -27,7 +27,7 @@ colors = {
     "blue": 25,
     "green": 23
 }
-chosen_color = input("Choose a color to paint the wall\n")
+chosen_color = input("Choose a color to paint the wall:\n")
 price = colors[chosen_color]
 total = price*num_paint_cans
 print("Cost of purchasing {} paint: ${}".format(chosen_color, total))
