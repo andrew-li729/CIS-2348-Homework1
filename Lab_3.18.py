@@ -18,4 +18,17 @@ print("Paint needed: {:.2f} gallons".format(gallons_paint))
 # PART 3
 # Calculate # of 1 gallon paint cans needed
 num_paint_cans = math.ceil(gallons_paint)
-print("Cans needed: {} can(s)".format(num_paint_cans))
+print("Cans needed: {} can(s)\n".format(num_paint_cans))
+
+# PART 4
+# Assign costs to color paints and calculate total
+colors = {
+    "red": 35,
+    "blue": 25,
+    "green": 23
+}
+chosen_color = input("Choose a color to paint the wall\n")
+price = colors[chosen_color]
+total = price*num_paint_cans
+print("Cost of purchasing {} paint: ${}".format(chosen_color, total))
+
