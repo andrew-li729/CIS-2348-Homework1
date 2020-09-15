@@ -26,5 +26,17 @@ print("{:.2f} cup(s) lemon juice".format(lemon_cups))
 print("{:.2f} cup(s) water".format(water_cups))
 print("{:.2f} cup(s) agave nectar\n".format(agave_cups))
 
+# PART 3
+# Convert cups to gallons: 16 cups in gallon
+lemon_gallons = lemon_cups/16
+water_gallons = water_cups/16
+agave_gallons = agave_cups/16
+
+# Reformat outputs for gallons instead of cups
+print("Lemonade ingredients - yields {:.2f} servings".format(desired_servings))
+print("{:.2f} gallon(s) lemon juice".format(lemon_gallons))
+print("{:.2f} gallon(s) water".format(water_gallons))
+print("{:.2f} gallons(s) agave nectar".format(agave_gallons))
+
 
 
