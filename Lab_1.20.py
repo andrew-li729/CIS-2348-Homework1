@@ -3,7 +3,7 @@
 
 print("Enter integer:")
 user_num1 = int(input())
-print("You entered: ", user_num1)
+print("You entered:", user_num1)
 
 squared = user_num1 * user_num1
 cubed = user_num1 * user_num1 * user_num1
