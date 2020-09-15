@@ -12,6 +12,9 @@ print("{:.2f} cup(s) lemon juice".format(lemon_cups))
 print("{:.2f} cup(s) water".format(water_cups))
 print("{:.2f} cup(s) agave nectar\n".format(agave_cups))
 
+# PART 2
+desired_servings = float(input("How many servings would you like to make?\n"))
+servings_factor = desired_servings/num_servings
 
 
 
